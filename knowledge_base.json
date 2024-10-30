@@ -3,6 +3,14 @@
     {
       "question": "Hello",
       "answer": "Hai, How is your day going?"
+    },
+    {
+      "question": "help",
+      "answer": "I am a simple chatbot. Ask me something related to my programmed responses."
+    },
+    {
+      "question": "bye",
+      "answer": "Goodbye! Have a nice day!"
     }
   ]
 }

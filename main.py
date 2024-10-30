@@ -43,7 +43,7 @@ def add_new_response(user_input, knowledge_base):
 def chat():
     knowledge_base = load_knowledge_base('knowledge_base.json')
 
-    user_input = input("You: ")
+    user_input = input("\nYou: ")
 
     if not user_input:
         print("Bot: Please provide a query!\n")
@@ -59,11 +59,9 @@ def chat():
         print("Bot:", answer)
     else:
         add_new_response(user_input, knowledge_base)
-    
-    print("\n", end='')
 
 
 if __name__ == '__main__':
-    print("Bot: Hello, I'm a basic rule-based chatbot. How can I help you?\n'__quit' for exit")
+    print("Bot: Hello, I'm a basic rule-based chatbot. How can I help you?\n'__quit' for exit\n")
     while True:
         chat()
